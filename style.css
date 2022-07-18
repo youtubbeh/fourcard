@@ -69,19 +69,20 @@ span {
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-.line {
+hr {
     position: relative;
     top: 0px;
-    color: hsl(0, 0%, 98%);
-    margin: 0;
-    height: 3px;
-    border: solid hsl(0, 0%, 98%);
+    margin: -30px;
+    height: 2px;
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+    width: 340px;
 }
 
 h2 {
     color:hsl(234, 12%, 34%);
     font-size: 20px;
-    margin: 0 0 5px 0;
+    margin: 60px 0 5px 0;
 }
 
 .task {
