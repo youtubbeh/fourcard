@@ -2,10 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 main {
     margin: 50px 100px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -13,6 +15,7 @@ h1 {
     text-align: center;
     color:hsl(234, 12%, 34%);
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .description {
@@ -28,26 +31,69 @@ span {
     display: block;
 }
 
+.card {
+    width: 380px;
+    height: 250px;
+    box-shadow: 10px 20px 20px 10px hsla(210, 38%, 89%, 0.6);
+    border-radius: 8px;
+    padding: 30px 30px 60px 30px;
+    box-sizing: border-box;
+}
+
+#supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+#team-builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+#calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.line {
+    position: relative;
+    top: 0px;
+    color: hsl(0, 0%, 98%);
+    margin: 0;
+    height: 3px;
+    border: solid hsl(0, 0%, 98%);
+}
+
 h2 {
     color:hsl(234, 12%, 34%);
-    font-size: 24px;
+    font-size: 20px;
+    margin: 0 0 5px 0;
 }
 
 .task {
     color:hsl(229, 6%, 66%);
     font-size: 15px;
+    margin: 0 0 30px 0;
+}
+
+img {
+    width: 65px;
+    margin: 0 0 0 79%;
+    display: inline-block;
 }
 
 .attribution {
     font-size: 11px; text-align: center;
     position: absolute;
-    top: 5px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
+    color:hsl(229, 6%, 66%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(229, 6%, 66%);
 }
 
 
@@ -63,6 +109,7 @@ footer {
     hsl(234, 12%, 34%)
     hsl(229, 6%, 66%)
     hsl(0, 0%, 98%)
+    hsl(210, 38%, 89%)
 }
 
 
